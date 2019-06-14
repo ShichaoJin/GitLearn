@@ -22,4 +22,5 @@ if __name__ == '__main__':
     outdir = ""
     if not os.path.exists(outdir): os.makedirs(outdir)
     print('finished')
+    print("add a line in working directory")
     embed()
